@@ -41,6 +41,7 @@ INSTALLED_APPS = [
      
     
     'django.contrib.sites',
+    'django_url_framework',
     
 
     'allauth',
