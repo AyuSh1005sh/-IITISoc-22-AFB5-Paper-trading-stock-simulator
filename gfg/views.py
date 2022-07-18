@@ -8,7 +8,7 @@ from django.contrib import messages
 
 # Create your views here.
 def home(request):
-    return render(request,"authentication/index.html")
+    return render(request,"index.html")
 
 def signup(request): 
 
@@ -33,10 +33,10 @@ def signup(request):
     
 
 
-    return render(request,"authentication/signup.html")
+    return render(request,"signup.html")
 
 def signin(request):
-    return render(request,"authentication/signin.html")
+    return render(request,"signin.html")
 
 def signout(request):
    pass
